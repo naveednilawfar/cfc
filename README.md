@@ -1,2 +1,2 @@
-# cfc
- Celsius and Farenheit converter
+# CFC
+Celsius and Farenheit converter
