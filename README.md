@@ -1,5 +1,5 @@
 # CFC
-Celsius and Farenheit converter
+Celsius and Farenheit converter is a program that converts both Celsius and Fahrenheit, written in python kivy.
 
 
-More details coming soon...
+# Install
