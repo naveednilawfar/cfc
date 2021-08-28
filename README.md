@@ -4,11 +4,9 @@ Celsius and Farenheit converter is a program that converts both Celsius and Fahr
 
 # Installing
 
-Firstly install Python from:
+If you have python installed skip this if not install Python from https://python.org
 
-        https://python.org
-
-Then clone this repo using:
+Install git from https://git-scm.com/download/ and then clone this repo using this command in Terminal(Linux/Mac OS) or Command Prompt(Windows):
 
         git clone https://github.com/naveednilawfar/cfc.git
 
@@ -16,3 +14,6 @@ Next install Requirements:
 
         pip install -r requirements.txt
 
+Finally run the program:
+
+        python 
