@@ -3,3 +3,6 @@ Celsius and Farenheit converter is a program that converts both Celsius and Fahr
 
 
 # Installing
+
+Clone this repo using:
+        git clone 
