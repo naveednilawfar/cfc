@@ -9,6 +9,7 @@ If you have python installed skip this if not install Python from https://python
 Install git from https://git-scm.com/download/ and then clone this repo using this command in Terminal(Linux/Mac OS) or Command Prompt(Windows):
 
         git clone https://github.com/naveednilawfar/cfc.git
+        cd cfc
 
 Next install Requirements:
 
@@ -16,4 +17,4 @@ Next install Requirements:
 
 Finally run the program:
 
-        python 
+        python main.py
