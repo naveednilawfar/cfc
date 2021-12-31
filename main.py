@@ -1,17 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from kivymd.app import MDApp
-from kivy.config import Config
 from kivy.lang import Builder
-from kivy.factory import Factory
-from kivy.core.window import Window
+from kivymd.app import MDApp
 from kivymd.uix.widget import MDAdaptiveWidget
 from kivymd.uix.snackbar import Snackbar
-import webbrowser
 
-"""CFC is a python program with kivy as the frontend GUI which
-converts celsius to fahrenheit or fahrenheit to celsius"""
+# CFC is a python program with kivy as the frontend GUI which
+# converts celsius to fahrenheit or fahrenheit to celsius.
+
 __version__ = "1.6.5"
 __author__ = "Naveed Nilawfar"
 
@@ -21,11 +18,10 @@ Builder.load_file('main.kv')
 
 class CFCLayout(MDAdaptiveWidget):
     """The root Widget of CFC"""
-    def sourcecode(self, src):
-        if src == 'github':
-            webbrowser.open('https://github.com/naveednilawfar/cfc')
+
     def c2f_cal(self):
         """Converts celsius into farenheit"""
+
         self.ids.afarenheit.text = ""
         if self.ids.scelsius.text == "":
             c2f_error = Snackbar(
@@ -41,6 +37,7 @@ class CFCLayout(MDAdaptiveWidget):
 
     def f2c_cal(self):
         """Converts farenheit into celsius"""
+
         self.ids.acelsius.text = ""
         if self.ids.sfarenheit.text == "":
             f2c_error = Snackbar(
@@ -57,6 +54,7 @@ class CFCLayout(MDAdaptiveWidget):
 
 class CFCApp(MDApp):
     """The app instance of CFC"""
+
     def build(self):
         """build the app"""
         self.title = 'CFConverter'
