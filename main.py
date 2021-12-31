@@ -56,7 +56,7 @@ class CFCApp(MDApp):
     """The app instance of CFC"""
 
     def build(self):
-        """build the app"""
+        """Build the app"""
         self.title = 'CFConverter'
         self.icon = 'images/icon9.png'
         self.theme_cls.theme_style = "Dark"
