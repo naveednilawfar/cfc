@@ -21,7 +21,6 @@ class CFCLayout(MDAdaptiveWidget):
 
     def c2f_cal(self):
         """Converts celsius into farenheit"""
-
         self.ids.afarenheit.text = ""
         if self.ids.scelsius.text == "":
             c2f_error = Snackbar(
@@ -37,7 +36,6 @@ class CFCLayout(MDAdaptiveWidget):
 
     def f2c_cal(self):
         """Converts farenheit into celsius"""
-
         self.ids.acelsius.text = ""
         if self.ids.sfarenheit.text == "":
             f2c_error = Snackbar(
