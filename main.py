@@ -3,7 +3,7 @@
 
 from kivy.lang import Builder
 from kivymd.app import MDApp
-from kivymd.uix.widget import MDAdaptiveWidget
+from kivy.uix.widget import Widget
 from kivymd.uix.snackbar import Snackbar
 
 # CFC is a python program with kivy as the frontend GUI which
@@ -16,7 +16,7 @@ __author__ = "Naveed Nilawfar"
 Builder.load_file('main.kv')
 
 
-class CFCLayout(MDAdaptiveWidget):
+class CFCLayout(Widget):
     """The root Widget of CFC"""
 
     def c2f_cal(self):
