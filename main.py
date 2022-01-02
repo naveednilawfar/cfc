@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from kivy.lang import Builder
+import kivy
 from kivymd.app import MDApp
-from kivy.uix.widget import Widget
 from kivymd.uix.snackbar import Snackbar
+from kivy.uix.widget import Widget
+from kivy.lang import Builder
+
+kivy.require('2.0.0')
 
 # CFC is a python program with kivy as the frontend GUI which
 # converts celsius to fahrenheit or fahrenheit to celsius.
 
-__version__ = "1.6.5"
+__version__ = "1.5"
 __author__ = "Naveed Nilawfar"
 
 
