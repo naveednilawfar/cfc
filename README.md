@@ -4,20 +4,22 @@ CFC
 Celsius and Farenheit converter is a program that converts both Celsius and Fahrenheit, written in python kivy.
 
 
-Pre-built binaries
-------------------
-<b><a href="">Android</a></b>
-<b><a href="">Linux</a></b>
-<b><a href="">Windows</a></b>
+Downloads
+---------
+<ul>
+    <li><b><a href="">Android</a></b><br></li>
+    <li><b><a href="">Linux</a></b><br></li>
+    <li><b><a href="">Windows</a></b><br></li>
+</ul>
 
-Installing
-----------
-First clone this repository:
+Build and run
+-------------
+Clone this repository using git:
 
         git clone https://github.com/naveednilawfar/cfc.git
         cd cfc
 
-Next install Requirements:
+And the install requirements:
 
         pip install -r requirements.txt
 
