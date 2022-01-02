@@ -7,7 +7,7 @@ title = CFConverter
 package.name = cfc
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = com.naveed
+package.domain = com.naveednilawfar
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -19,7 +19,7 @@ source.include_exts =
 #source.include_patterns = assets/*,images/*.png
 
 # (list) Source files to exclude (let empty to not exclude anything)
-source.exclude_exts = spec, icns
+source.exclude_exts = spec, icns, ico
 
 # (list) List of directory to exclude (let empty to not exclude anything)
 source.exclude_dirs = tests, bin, .buildozer
@@ -28,7 +28,7 @@ source.exclude_dirs = tests, bin, .buildozer
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 1.0
+version = 1.5
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
@@ -36,7 +36,7 @@ version = 1.0
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.0.0rc3,git+https://github.com/HeaTTheatR/KivyMD.git,pillow,sdl2_ttf==2.0.15
+requirements = python3,kivy==2.0.0,git+https://github.com/HeaTTheatR/KivyMD.git,pillow,sdl2_ttf==2.0.15
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -88,7 +88,7 @@ android.presplash_color = #000000
 #android.permissions = INTERNET
 
 # (int) Target Android API, should be as high as possible.
-#android.api = 27
+android.api = 30
 
 # (int) Minimum API your APK will support.
 #android.minapi = 21
